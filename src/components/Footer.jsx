@@ -4,8 +4,8 @@ import { FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
 const Footer = () => {
   const socialLinks = [
     { icon: <FiGithub />, url: 'https://github.com/Preeti0411Gautam' },
-    { icon: <FiLinkedin />, url: 'https://linkedin.com/in/preeti-gautam' },
-    { icon: <FiTwitter />, url: 'https://twitter.com' },
+    { icon: <FiLinkedin />, url: 'https://www.linkedin.com/in/preeti-gautam-704179137/' },
+    // { icon: <FiTwitter />, url: 'https://twitter.com' },
     { icon: <FiMail />, url: 'mailto:preetigautam0411@gmail.com' }
   ];
 
