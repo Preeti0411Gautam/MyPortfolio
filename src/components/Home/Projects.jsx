@@ -1,5 +1,5 @@
-import React from 'react'
-import { FiGithub, FiExternalLink } from 'react-icons/fi'
+import React from 'react';
+import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
   {
@@ -16,14 +16,19 @@ const projects = [
     github: 'https://github.com/Preeti0411Gautam/BillStack',
     demo: '#',
   },
-]
+  {
+    title: 'LifeLedger',
+    description:
+      'Decentralized Electronic Medical Records (EMR) system ensuring secure, tamper-proof, and privacy-focused storage using blockchain.',
+    tags: ['React', 'Redux', 'Solidity', 'Ethers.js', 'IPFS', 'Pinata'],
+    github: 'https://github.com/Preeti0411Gautam/Electronic-Medical-Records',
+    demo: '#',
+  },
+];
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="py-20 bg-gradient-to-b from-white to-blue-50"
-    >
+    <section id="projects" className="py-20 bg-gradient-to-b from-white to-blue-50">
       <div className="container mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -62,7 +67,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-gray-100 text-gray-800 rounded-md  hover:bg-gray-200 flex items-center gap-2 transition"
+                    className="px-4 py-2 bg-gray-100 text-gray-800 rounded-md hover:bg-gray-200 flex items-center gap-2 transition"
                   >
                     <FiGithub /> Code
                   </a>
@@ -81,10 +86,9 @@ const Projects = () => {
             </div>
           ))}
         </div>
-
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

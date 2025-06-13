@@ -32,7 +32,7 @@ const Education = () => {
               title: 'Master of Computer Applications',
               school: 'Maulana Azad National Institute Of Technology',
               date: '2023 — 2026',
-              detail: 'CGPA: 7.9 / 10',
+              detail: 'CGPA: 8.145',
             },
           ].map((edu, idx) => {
             const isLeft = idx % 2 === 0
