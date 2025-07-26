@@ -41,7 +41,7 @@ const Profile = () => {
               <HiMail /> Contact Me
             </a>
             <a
-  href="https://drive.google.com/file/d/1U8uzW8zOvkeFbq7pjmxUfACAWqgxKNh_/view?usp=sharing"
+  href="https://drive.google.com/file/d/1gXrVmklkrx34sfHb5Bkw6EB_3ll2DaAk/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition flex items-center justify-center gap-2"
