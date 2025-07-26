@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
-import img from '../../assets/myimg.jpg'
+import img from '../../assets/portfolio.jpg'
 const Profile = () => {
   return (
     <section
